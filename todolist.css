@@ -1,0 +1,69 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box; 
+}
+
+.tbl-caption {
+	padding: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.task-table td, th{
+	padding: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    padding: .275rem 0.8rem;
+    line-height: 1.5;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+.task-frm {
+	margin: 10px, 0px;
+}
+
+.txt-add {
+	padding: 5px;
+}
+
+.btn-add {
+	background-color: #0275d8;
+    border-color: #0275d8;
+    padding: .275rem 0.8rem;
+    line-height: 1.5;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #025aa5;
+    border-color: #01549b;
+}

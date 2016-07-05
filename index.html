@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" type="text/css" href="todolist.css">
+    <script type="text/javascript" src="todolist.js"></script>
+</head>
+<!-- Starts the Ajax request to insert the rows into the table -->
+<body onload="getPosts();">
+	<div class="container">
+		<table class="table">
+			<caption class="tbl-caption">Your To Do List</caption>
+		  	<tbody class="task-table">
+		  	<!-- Rows are inserted dynamically here... -->
+		  	</tbody>	
+		</table>
+		<div class="task-frm">
+			<!-- Form to add a new row to the table -->
+			<form class="add-task">
+				<input class="txt-add" name="title" type="text" placeholder="Task Name..." required>
+				<button class="btn-add">Add</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
